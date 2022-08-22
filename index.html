@@ -8,6 +8,10 @@
         <!-- Link to CSS -->
         <link rel="stylesheet" href="index.css">
 
+        <!-- Link to Java Script -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
         <!-- Link to font styles -->
         <link href="http://fonts.cdnfonts.com/css/gill-sans-mt-condensed" rel="stylesheet">
 
@@ -24,17 +28,37 @@
             <div class="header-navigation">
                 <div class="header-logo"></div>
                 <div class="header-items">
-                    <div class="about">About</div>
-                    <div class="adopt-rehome">Adopt & Rehome</div>
-                    <div class="useful-information">Useful Information</div>
-                    <div class="support-us">Support Us</div>
-                    <div class="shop">shop</div>
+                    <div class="about item">About</div>
+                    <div class="adopt-rehome item">Adopt & Rehome</div>
+                    <div class="useful-information item">Useful Information</div>
+                    <div class="support-us item">Support Us</div>
+                    <div class="shop item">shop</div>
                 </div>
                 
                 <div class="search"></div>
                 <div class="donate-btn">Donate now</div>
-                <div Class="burger"> || </div>
+                
             </div>
+
+            <div class="mobile-navigation">
+                <div class="header-logo"></div>
+                <div class="search"></div>
+                <div Class="burger"> </div>
+            </div>
+
+            
+            <div id="modal-menu">
+                <div class="modal-menu-links close"> 
+                    <div class="close-icon"></div>
+                </div>
+                <div class="modal-menu-links">About</div>
+                <div Class="modal-menu-links">Adopt & Rehome</div>
+                <div Class="modal-menu-links">Useful Information</div>
+                <div Class="modal-menu-links">Support Us</div>
+                <div Class="modal-menu-links">Shop</div>
+                <div Class="modal-menu-links donate-modal">Donate Now</div>
+            </div>
+    
 
             <div class="hero-header"> 
                 <div class="header-image"></div>
@@ -172,7 +196,7 @@
                     <div class="indicator"></div>
                 </div>
 
-                <div class="primary-btn adopt-now-btn">Adopt Now</div>
+                <div class="primary-btn adopt-now-btn">View more</div>
 
                 <div class="fade"></div>
                 
@@ -293,26 +317,14 @@
 
 
                 </div>
+
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </diV>
-        
+
+        <script src="index.js"></script>
+
+
+      
 
 
 
