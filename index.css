@@ -873,13 +873,37 @@ h6{
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
+
+
+    .page-container{
+        grid-template-columns: 48px repeat(12, 1fr) 48px
+    }
+
+    .hero-header{
+        grid-template-columns: 48px repeat(12, 1fr) 48px
+    }
+
+    .header-navigation{
+        grid-template-columns: 48px repeat(12, 1fr) 48px
+    }
+
+    .donate-btn{
+        text-align: center;
+    }
 
     .our-impact-container{
-        grid-template-columns: 144px repeat(12, 1fr) 144px;
+        grid-template-columns: 48px repeat(12, 1fr) 48px;
         text-align: center;
     }
     
+    .search{
+        display: none;
+    }
+
+    .header-items{
+        grid-column: 4/12;
+    }
 
 
     .information-container{
@@ -916,6 +940,24 @@ h6{
         height: auto;
     }
 
+    .how-you-can-help{
+        grid-template-columns: 48px repeat(12, 1fr) 48px;
+        text-align: center;
+       
+    
+    
+    }
+
+    .footer{
+        grid-template-columns: 48px repeat(12, 1fr) 48px;
+        text-align: left;
+
+    }
+
+    .rhs-footer{
+        grid-column: 5/14;
+    }
+
 
 
 }
@@ -923,10 +965,7 @@ h6{
 @media only screen and (max-width: 900px) {
 
 
-    .page-container{
-        grid-template-columns: 24px repeat(12, 1fr) 24px
-    }
-
+    
     .header-navigation{
         display: none;
     }
